@@ -17,7 +17,7 @@ ul {
 }
 .header {
   background: url("images/aaa.png") no-repeat center/cover;
-  height: 60vh;
+  height: 50vh;
 }
 .header-description {
   text-align: center;
@@ -40,4 +40,17 @@ ul {
 .main-btn.header-btn:hover {
   background-color: white;
   color: black;
+}
+
+.nav-footer {
+  background-color: rgba(143, 138, 138, 0.7);
+}
+.main-content {
+  text-align: center;
+  padding: 1em;
+}
+.blog-card {
+  border: 1px solid black;
+  margin: 0.5em;
+  padding: 1em;
 }
