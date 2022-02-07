@@ -10,6 +10,7 @@ ul {
 
 .navbar a {
   text-decoration: none;
+  color: white;
 }
 .navbar {
   background-color: rgba(143, 138, 138, 0.7);
@@ -44,6 +45,7 @@ ul {
 
 .nav-footer {
   background-color: rgba(143, 138, 138, 0.7);
+  color: white;
 }
 .main-content {
   text-align: center;
@@ -53,4 +55,13 @@ ul {
   border: 1px solid black;
   margin: 0.5em;
   padding: 1em;
+}
+.fa-facebook-f {
+  color: cornflowerblue;
+}
+.fa-twitter {
+  color: mediumslateblue;
+}
+.fa-instagram {
+  color: pink;
 }
