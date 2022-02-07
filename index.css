@@ -26,3 +26,18 @@ ul {
   margin-top: 0;
   padding-top: 1.5em;
 }
+.main-btn {
+  background-color: transparent;
+  padding: 0.5em;
+}
+.main-button:focus {
+  outline-color: red;
+}
+.main-btn:hover {
+  background-color: black;
+  color: white;
+}
+.main-btn.header-btn:hover {
+  background-color: white;
+  color: black;
+}
