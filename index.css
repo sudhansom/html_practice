@@ -88,3 +88,6 @@ ul {
 .nav-footer ul {
   display: flex;
 }
+.nav-footer ul li {
+  padding-right: 1em;
+}
