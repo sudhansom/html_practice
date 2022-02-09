@@ -38,7 +38,7 @@ ul {
   background-color: black;
   color: white;
 }
-.main-btn.header-btn:hover {
+.header-btn:hover {
   background-color: white;
   color: black;
 }
