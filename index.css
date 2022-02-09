@@ -32,7 +32,7 @@ ul {
   padding: 0.5em;
 }
 .main-button:focus {
-  outline-color: red;
+  outline: white;
 }
 .main-btn:hover {
   background-color: black;
@@ -89,4 +89,7 @@ ul {
 }
 .nav-footer ul li {
   padding-right: 1em;
+}
+h1 {
+  font-size: 3em;
 }
