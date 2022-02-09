@@ -78,3 +78,6 @@ ul {
 .navbar-header-2 li {
   padding-left: 1em;
 }
+.main-content-body {
+  display: flex;
+}
