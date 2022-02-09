@@ -84,6 +84,7 @@ ul {
 .nav-footer {
   display: flex;
   justify-content: space-between;
+  padding: 1em;
 }
 .nav-footer ul {
   display: flex;
