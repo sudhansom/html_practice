@@ -75,3 +75,6 @@ ul {
   display: flex;
   justify-content: space-around;
 }
+.navbar-header-2 li {
+  padding-left: 1em;
+}
