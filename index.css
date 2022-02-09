@@ -81,7 +81,10 @@ ul {
 .main-content-body {
   display: flex;
 }
+.nav-footer {
+  display: flex;
+  justify-content: space-between;
+}
 .nav-footer ul {
   display: flex;
-  justify-content: space-around;
 }
