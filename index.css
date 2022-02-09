@@ -14,7 +14,7 @@ ul {
 }
 .navbar {
   background-color: rgba(143, 138, 138, 0.7);
-  padding: 0.5em;
+  padding: 1em;
 }
 .header {
   background: url("images/aaa.png") no-repeat center/cover;
