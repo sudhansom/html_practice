@@ -2,6 +2,9 @@ body {
   padding: 0;
   margin: 0;
 }
+.body-btn {
+  margin: 0.2em;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -11,4 +14,31 @@ ul {
 .header {
   background: url("images/aaa.png") no-repeat center/cover;
   height: 50vh;
+
+  &__navbar a {
+    text-decoration: none;
+    color: white;
+  }
+  &__navbar {
+    background-color: rgba(143, 138, 138, 0.7);
+    padding: 1em;
+  }
+  &__header-description {
+    text-align: center;
+  }
+  &__header-description h1 {
+    margin-top: 0;
+    padding-top: 1.5em;
+  }
+}
+
+.main-content {
+  text-align: center;
+  padding: 1em;
+
+  &__card {
+    border: 1px solid black;
+    margin: 0.5em;
+    padding: 1em;
+  }
 }
