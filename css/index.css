@@ -25,6 +25,37 @@ ul {
   text-decoration: none;
   color: white;
 }
+.header__navbar-header-2 {
+  display: flex;
+  justify-content: space-around;
+}
+.header__navbar {
+  background-color: rgba(143, 138, 138, 0.7);
+  padding: 1em;
+}
+.header__header-description {
+  text-align: center;
+}
+.header__header-description h1 {
+  margin-top: 0;
+  padding-top: 1.5em;
+}
+.header__navbar-links {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__navbar-header-2 {
+  display: flex;
+  justify-content: space-around;
+}
+.header__navbar-header-2 li {
+  padding-left: 1em;
+}
+.header__navbar a {
+  text-decoration: none;
+  color: white;
+}
 .header__navbar {
   background-color: rgba(143, 138, 138, 0.7);
   padding: 1em;

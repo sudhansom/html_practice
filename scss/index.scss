@@ -17,6 +17,37 @@ ul {
 .header {
   background: url("images/aaa.png") no-repeat center/cover;
   height: 50vh;
+  &__navbar a {
+    text-decoration: none;
+    color: white;
+  }
+  &__navbar-header-2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__navbar {
+    background-color: rgba(143, 138, 138, 0.7);
+    padding: 1em;
+  }
+  &__header-description {
+    text-align: center;
+  }
+  &__header-description h1 {
+    margin-top: 0;
+    padding-top: 1.5em;
+  }
+  &__navbar-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__navbar-header-2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__navbar-header-2 li {
+    padding-left: 1em;
+  }
 
   &__navbar a {
     text-decoration: none;
