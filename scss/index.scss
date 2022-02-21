@@ -105,3 +105,17 @@ ul {
     padding-right: 1em;
   }
 }
+
+.btn {
+  background-color: transparent;
+  padding: 0.5em;
+
+  &--hover-white:hover {
+    background-color: black;
+    color: white;
+  }
+  &--hover-black:hover {
+    background-color: black;
+    color: white;
+  }
+}

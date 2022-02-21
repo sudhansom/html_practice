@@ -105,4 +105,17 @@ ul {
 }
 .nav-footer ul li {
   padding-right: 1em;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 0.5em;
+}
+.btn--hover-white:hover {
+  background-color: black;
+  color: white;
+}
+.btn--hover-black:hover {
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=index.css.map */
