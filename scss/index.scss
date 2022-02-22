@@ -76,7 +76,7 @@ ul {
     padding: 1em;
   }
   &__body {
-    display: flex;
+    @include mixin.flex-container-around;
   }
 }
 
