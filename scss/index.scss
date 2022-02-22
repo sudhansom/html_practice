@@ -1,4 +1,5 @@
 @use "mixin";
+@use "variables";
 
 body {
   padding: 0;
@@ -27,10 +28,7 @@ ul {
   &__navbar-header-2 {
     @include mixin.flex-container-between;
   }
-  &__navbar {
-    background-color: rgba(143, 138, 138, 0.7);
-    padding: 1em;
-  }
+
   &__description {
     text-align: center;
   }
@@ -54,7 +52,7 @@ ul {
     color: white;
   }
   &__navbar {
-    background-color: rgba(143, 138, 138, 0.7);
+    background-color: $nav-color;
     padding: 1em;
   }
   &__header-description {
@@ -81,13 +79,13 @@ ul {
 }
 
 .fa-facebook-f {
-  color: rgb(13, 86, 221);
+  color: $facebook-icon-color;
 }
 .fa-twitter {
-  color: rgb(105, 85, 218);
+  color: $twitter-icon-color;
 }
 .fa-instagram {
-  color: rgb(170, 49, 140);
+  color: $insta-icon-color;
 }
 
 .nav-footer {
