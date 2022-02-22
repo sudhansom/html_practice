@@ -1,3 +1,14 @@
-@mixn flex-container {
+@mixn flex-container-between {
   display: flex;
+  justify-content: space-between;
+}
+
+@mixn flex-container-evenly {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixn flex-container-around {
+  display: flex;
+  justify-content: space-between;
 }

@@ -1,3 +1,5 @@
+@use "mixin";
+
 body {
   padding: 0;
   margin: 0;
@@ -23,8 +25,7 @@ ul {
     color: white;
   }
   &__navbar-header-2 {
-    display: flex;
-    justify-content: space-around;
+    @include mixin.flex-container-between;
   }
   &__navbar {
     background-color: rgba(143, 138, 138, 0.7);
@@ -39,12 +40,10 @@ ul {
   }
   &__navbar-links {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    @include mixin.flex-container-between;
   }
   &__navbar-header-2 {
-    display: flex;
-    justify-content: space-around;
+    @include mixin.flex-container-around;
   }
   &__navbar-header-2 li {
     padding-left: 1em;
@@ -94,8 +93,7 @@ ul {
 .nav-footer {
   background-color: rgba(143, 138, 138, 0.7);
   color: white;
-  display: flex;
-  justify-content: space-between;
+  @include mixin.flex-container-between;
   padding: 1em;
 
   ul {
