@@ -52,7 +52,7 @@ ul {
     color: white;
   }
   &__navbar {
-    background-color: $nav-color;
+    background-color: variables.$nav-color;
     padding: 1em;
   }
   &__header-description {
@@ -79,17 +79,17 @@ ul {
 }
 
 .fa-facebook-f {
-  color: $facebook-icon-color;
+  color: variables.$facebook-icon-color;
 }
 .fa-twitter {
-  color: $twitter-icon-color;
+  color: variables.$twitter-icon-color;
 }
 .fa-instagram {
-  color: $insta-icon-color;
+  color: variables.$twitter-icon-color;
 }
 
 .nav-footer {
-  background-color: rgba(143, 138, 138, 0.7);
+  background-color: variables.$nav-color;
   color: white;
   @include mixin.flex-container-between;
   padding: 1em;
